@@ -9,7 +9,7 @@ Requirements
 1. PhantomJS [http://phantomjs.org/]
 Download and install so that phantomjs is in PATH and available as a command.
 
-2. CasperJS [ttp://http://casperjs.org/]
+2. CasperJS [http://casperjs.org/]
 Download and install so that casperjs is in PATH and available as a command.
 
 Usage
