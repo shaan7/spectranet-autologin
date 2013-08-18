@@ -16,7 +16,9 @@ Usage
 ===================
 
 From the command line, run
+
 	$ casperjs test spectranet_login.js --username=YOUR_USERNAME --password=YOUR_PASSWORD
 
 To get verbose output, run
+
 	$ casperjs --direct --log-level=info test spectranet_login.js --username=YOUR_USERNAME --password=YOUR_PASSWORD
