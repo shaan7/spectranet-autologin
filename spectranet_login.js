@@ -13,8 +13,8 @@ casper.test.begin('Spectranet Login Works', 2, function suite(test) {
         test.assertTitle("New Customer Login Page", "login page opens");
         test.assertExists('form', "main form is found");
         this.fill('form', {
-            username: my_username,
-            password: my_password,
+            username: String(my_username),
+            password: String(my_password),
             type: 2
         }, false);
         this.click('input[value="Submit"]');
